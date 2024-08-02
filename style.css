@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.custom-container {
+    background-color: #E9EDF2;
+    border-radius: 15px;
+}
+.footer-container{
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+}
+.row-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+   background-color: #E9EDF2;
+   font-family: DM Sans;
+}
+
+.form-container{
+   background-color: #FFFFFF;
+   border-radius: 10px;
+}
+
+.btn-container{
+    background-color: #FFFFFF;
+
+}
+.btn-filled{
+    background-color:#4318FF;
+    color: #FFFFFF;
+
+}
+#input1::placeholder {
+    color: #949DB9; 
+    font-size: 15px;
+}
+
+label{
+    font-size: 15px;
+    color: #2B3674;
+    font-weight: 600;
+}
+
+#input1{
+    padding: 8px;
+    border-radius: 10px;
+    border: 1px solid #B6BBC7;
+
+}
+
+.input-focus:focus {
+    border-color: #4318FF; 
+    box-shadow: 0 0 5px #4318FF;
+}
+
+
+.upload-box {
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+.upload-icon {
+    font-size: 64px;
+    color: #6c757d;
+}
+.form-container {
+    color: #2B3674;
+    font-weight: 500;
+}
+
+.upload-box h5{
+    color: #4318FF;
+    font-weight: 700;
+}
+.upload-box p{
+    color: #8F9BBA;
+    font-size: 12px;
+}
+
+.alert-box{
+    width: 100%;
+    background-color:#FDF4D1;
+    border: 1px solid ;
+    border-color: #FBE7A5;
+    border-radius: 5px;
+}
+
+.footer-btns{
+    display: flex;
+    justify-content: end;
+}
